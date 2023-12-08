@@ -44,7 +44,8 @@ function update(){
     //console.log(actives.length, circles.length);
     //console.log((actives.length -1) / (circles.length -1) * 100);
 
-    progress.style.width = (actives.length -1) / (circles.length -1) * 100;
+    progress.style.width = ((actives.length - 1) / (circles.length - 1)) * 100 + '%';
+
 
     // eğerki circlelerin değeri 0 a gelirse prev butonunu disabled yap max circles.length olursa next butonunu disabled yap ama her ikiside değilse iki butonu da enabled yap.
 
